@@ -58,6 +58,12 @@
     self.backgroundColor = [UIColor clearColor];
     self.contentView.backgroundColor = [UIColor clearColor];
     self.clipsToBounds = YES;
+    
+    self.navigationBarSubtitleFont = [UIFont systemFontOfSize:11];
+    self.navigationBarSubtitleFontColor = [UIColor darkGrayColor];
+    self.navigationBarTitleFont = [UIFont boldSystemFontOfSize:16];
+    self.navigationBarTitleFontColor = [UIColor blackColor];
+    self.navigationBarTitleFontInSubtitleMode = self.navigationBarTitleFont;
 }
 
 - (void)setNavigationBarTitle:(NSString *)navigationBarTitle
